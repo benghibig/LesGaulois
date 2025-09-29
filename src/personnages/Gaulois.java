@@ -21,5 +21,21 @@ public class Gaulois {
 		return "Le gaulois " + nom + ":";
 	}
 	
+
+	public String toString() {
+		return "Gaulois [nom=" + nom + ", force=" + force + "]";
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		Gaulois asterix = new Gaulois("Astérix", 8);
+		
+		
+		System.out.println(asterix.toString());
+		
+		
+	}
+	
 	
 }
