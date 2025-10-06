@@ -5,7 +5,11 @@ public class Druide {
 	private String nom;
 	private int force;
 	Chaudron[] chaudron = new Chaudron[NBCHAUDRON];
-	
+	public Druide(String nom, int force) {
+		this.nom = nom;
+		this.force = force;
+		this.chaudron[0] = new Chaudron();
+	}
 	
 	public String getNom() {
 		return nom;
