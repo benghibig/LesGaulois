@@ -4,7 +4,7 @@ public class Druide {
 	private static final int NBCHAUDRON = 1;
 	private String nom;
 	private int force;
-	Chaudron[] chaudron = new Chaudron[NBCHAUDRON];
+	private Chaudron[] chaudron = new Chaudron[NBCHAUDRON];
 	public Druide(String nom, int force) {
 		this.nom = nom;
 		this.force = force;
